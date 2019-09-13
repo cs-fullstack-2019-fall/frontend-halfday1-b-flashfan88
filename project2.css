@@ -1,0 +1,19 @@
+#thisgrid{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: auto auto auto;
+    font-size: 100px;
+    background: gray;
+}
+
+button{
+    height: 48px;
+    float: bottom;
+}
+
+h1, h6{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
