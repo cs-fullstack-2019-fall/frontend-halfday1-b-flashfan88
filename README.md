@@ -43,3 +43,6 @@ Toggle background colors on and off.
 
 ### Challenge3
 Make keyboard and mouse options. Disable and stop events from counting the points when the option is not chosen. 
+
+### Kenn's Notes:
+Looks like the buttons disappear after clicking them and not allowing more clicks. Unfortunately you used the very old HTML version of click and the javascript version you're not supposed to use. It's suggested to use addEVentListener. The button is disappearing because the id score1 is on the h1 with a button inside of that as well.
